@@ -1,0 +1,28 @@
+@import-normalize;
+@import './fonts.scss';
+@import './form.scss';
+@import '~antd/dist/antd.css';
+
+#root {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Comfortaa';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(rgb(185, 222, 248), rgb(119, 194, 245));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

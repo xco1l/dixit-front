@@ -1,0 +1,23 @@
+.chat {
+  height: 95%;
+  flex: 1;
+  max-height: 95%;
+  background: rgb(243, 215, 185);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+
+  &::-webkit-scrollbar {
+    width: 1em;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: linear-gradient(rgb(185, 222, 248), rgb(119, 194, 245));
+    border-radius: 20px;
+  }
+
+  &__message {
+    padding: 20px;
+  }
+}

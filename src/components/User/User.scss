@@ -1,0 +1,14 @@
+.user {
+  display: inline-flex;
+  align-items: center;
+
+  &__info {
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 15px;
+  }
+
+  &__name {
+    margin-bottom: 10px;
+  }
+}
